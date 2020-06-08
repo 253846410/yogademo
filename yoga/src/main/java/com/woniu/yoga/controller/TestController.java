@@ -14,6 +14,7 @@ public class TestController {
     @GetMapping("say")
     public String say(){
         System.out.println("say");
+        System.out.println("init");
         return "hello";
     }
 }
